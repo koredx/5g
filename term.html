@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <title>Document</title>
+</head>
+<body>
+        <h1>survey form</h1>
+    <!--create form-->
+    <form id="form"><br>
+<div class="form-control"><br>
+<label for="name" id="label-name">Name</label><br>
+<input type="text" id="name" placeholder="Enter your name"><br>
+</div>
+ <div class="form-control">
+    <label for="Email" id="label-email">Email</label>
+    <input type="email" id="email" placeholder="Entaer your email">
+ </div>
+ <div class="form-control">
+    <label for="age" id="label-age">Age</label>
+    <input type="text" id="age" placeholder="Enter your age">
+ </div>
+<div class="form-control">
+    <label for="role" id="label-role">which option best describe you</label>
+    
+
+
+<select name="role" id="role">
+    <option value="student">student</option>
+    <option value="intern">intern</option>
+    <option value="professional">professional</option>
+    <option value="other">other</option>
+</select>
+</div>
+<div class="form-control">
+    <label >would you recommend this form to people</label>
+    <label for="recommend-1">
+        <input type="radio" id="recommend-1" name="recommend">yes</input>
+    </label>
+    <label for="recommend-2">
+        <input type="radio" id="recommend-2" name="recommend">NO</input>
+    </label>
+</div>
+<div class="form-control">
+    <label>languages and framework known
+        <small>(chech for all that apply)</small>
+    </label>
+</div>
+<label for="inp-1">
+    <input type="checkbox" name="inp">c</input>
+</label><br>
+<label for="inp-2">
+    <input type="checkbox" name="inp">c++</input>
+</label><br>
+<label for="inp-3">
+    <input type="checkbox" name="inp">javascript</input>
+</label><br>
+<label for="inp-4">
+    <input type="checkbox" name="inp">python</input>
+</label><br>
+
+<div class="form-control">
+    <label for="comment">
+        any comment or suggestion
+    </label>
+    <!--multi line text input control-->
+    <textarea name="comment" id="comment" placeholder="enter your comment">
+
+    </textarea>
+</div>
+<button type="submit">Submit</button>
+
+
+
+
+
+
+    </form>
+</body>
+</html>
